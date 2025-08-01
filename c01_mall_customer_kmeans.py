@@ -85,3 +85,4 @@ plt.show()
 print(f"\n已將客戶分為 {optimal_k} 群")
 print("\n各群的特徵平均值:")
 print(df.groupby('Cluster')[['Annual Income (k$)', 'Spending Score (1-100)']].mean())
+
